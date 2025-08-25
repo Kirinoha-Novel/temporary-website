@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- noindex meta setting start -->
+    <meta name="robots" content="noindex" />
+    <!-- noindex meta setting end -->
+    <!-- meta settings start -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="description" content="きりのはのべるのサイトです。" />
+    <meta
+      name="keyword"
+      content="きりのはのべる Kirinoha-Novel kirinoha-novel 'kirinoha novel'"
+    />
+    <link rel="shortcut icon" href="/assets/logo.webp" />
+    <meta name="theme-color" content="rgb(224, 214, 190)" />
+    <!-- meta settings end -->
+    <!-- Twitter card settings start -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kirinohanovel" />
+    <meta name="twitter:creator" content="@yuki_osada0808" />
+    <meta name="twitter:title" content="きりのはのべる" />
+    <meta name="twitter:description" content="きりのはのべるのサイトです。" />
+    <meta name="twitter:image" content="/og-image.webp" />
+    <meta name="twitter:image:alt" content="circle logo" />
+    <!-- Twitter card settings end -->
+    <!-- Google fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google fonts end -->
+    <!-- OG setting start -->
+    <meta property="og:site_name" content="きりのはのべる" />
+    <meta property="og:description" content="きりのはのべるのサイトです。" />
+    <meta property="og:image" content="/assets/og-image.webp" />
+    <meta property="og:image:width" content="1072" />
+    <meta property="og:image:height" content="603" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <!-- OG setting end -->
+    <!-- redirect start -->
+    <meta http-equiv="refresh" content="5; URL=''" />
+    <!-- redirect end -->
+    <!-- css start -->
+    <style>
+      * {
+        font-family: "Klee One", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      html,
+      body {
+        background-color: #f1e6dc;
+      }
+      .container {
+        width: 100%;
+        height: 100lvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content {
+        text-align: center;
+      }
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    </style>
+    <!-- css end  -->
+    <title>きりのはのべる</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>ようこそ、きりのはのべるのサイトへ！</h1>
+        <p>🚧🚧🚧きりのはのべるのサイトは、作成中です。🚧🚧🚧</p>
+        <p>
+          <span id="timer"></span
+          >杪後に「なついろにっき。」のティザーサイトにリダイレクトします。
+        </p>
+      </div>
+    </div>
+    <script type="module">
+      const timer = window.document.getElementById("timer");
+      let count = 5;
+      setInterval(() => {
+        timer.innerText = count;
+        count--;
+      }, 1000);
+    </script>
+  </body>
+</html>
